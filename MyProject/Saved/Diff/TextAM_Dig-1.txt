@@ -1,0 +1,15 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="AM_Dig"
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimDataModel"
+   End Object
+   Begin Object Name="AnimDataModel"
+      NumberOfFrames=340000
+      NumberOfKeys=340001
+   End Object
+   CompositeSections(0)=(SectionName="Default",LinkedMontage="/Script/Engine.AnimMontage'AM_Dig'",SegmentIndex=0,SegmentLength=5.666667,LinkedSequence="/Script/Engine.AnimSequence'/Game/Assets/Polygon_Dog/Animation/Actions_Standing/AS_Dog_Action_Standing_Dig.AS_Dog_Action_Standing_Dig'")
+   SlotAnimTracks(0)=(AnimTrack=(AnimSegments=((CachedPlayLength=5.666667,AnimReference="/Script/Engine.AnimSequence'/Game/Assets/Polygon_Dog/Animation/Actions_Standing/AS_Dog_Action_Standing_Dig.AS_Dog_Action_Standing_Dig'",AnimEndTime=5.666667))))
+   CommonTargetFrameRate=(Numerator=30)
+   SequenceLength=5.666667
+   AnimNotifyTracks(0)=(TrackName="1")
+   DataModelInterface=AnimDataModel'AM_Dig:AnimDataModel'
+   Skeleton="/Script/Engine.Skeleton'/Game/Assets/Polygon_Dog/Meshes/SKEL_Animal_Dog.SKEL_Animal_Dog'"
+End Object

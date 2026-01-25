@@ -1,0 +1,21 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="AM_Cower"
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimDataModel"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="AnimDataModel"
+      NumberOfFrames=346800
+      NumberOfKeys=346801
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   CompositeSections(0)=(SectionName="Default",LinkedMontage="/Script/Engine.AnimMontage'AM_Cower'",SegmentIndex=0,SegmentLength=2.890000,LinkedSequence="/Script/Engine.AnimSequence'/Game/Assets/Polygon_Dog/Animation/Actions_Standing/AS_Dog_Action_Standing_Cower.AS_Dog_Action_Standing_Cower'")
+   SlotAnimTracks(0)=(AnimTrack=(AnimSegments=((CachedPlayLength=6.000000,AnimReference="/Script/Engine.AnimSequence'/Game/Assets/Polygon_Dog/Animation/Actions_Standing/AS_Dog_Action_Standing_Cower.AS_Dog_Action_Standing_Cower'",AnimStartTime=1.110000,AnimEndTime=4.000000),(CachedPlayLength=6.000000,AnimReference="/Script/Engine.AnimSequence'/Game/Assets/Polygon_Dog/Animation/Actions_Standing/AS_Dog_Action_Standing_Cower.AS_Dog_Action_Standing_Cower'",StartPos=2.890000,AnimStartTime=1.110000,AnimEndTime=4.000000,AnimPlayRate=-1.000000))))
+   CommonTargetFrameRate=(Numerator=30)
+   SequenceLength=5.780000
+   bLoop=True
+   AnimNotifyTracks(0)=(TrackName="1",TrackColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+   DataModelInterface=AnimDataModel'AM_Cower:AnimDataModel'
+   Skeleton="/Script/Engine.Skeleton'/Game/Assets/Polygon_Dog/Meshes/SKEL_Animal_Dog.SKEL_Animal_Dog'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+End Object
